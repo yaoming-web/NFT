@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+/* body section */
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:hsl(217, 54%, 11%) ;
+    display: flex;
+    justify-content: center;
+    font-family: "outfit";
+    cursor: pointer;
+}
+
+/* nft-container */
+
+.nft-container{
+    background-color:hsl(216, 50%, 16%) ;
+    width: 300px;
+    height: 500px;
+   margin: 5%;
+   border-radius: 15px;
+}
+
+.nft-wrapper{
+    margin: 15px 20px 20px 25px;
+}
+
+.nft-image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+h4{
+    color:  hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+h4:hover{
+    color: hsl(178, 100%, 50%);
+}
+p{
+    color:hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.eth-value{
+    color:hsl(178, 100%, 50%);
+    font-size: 15px;
+}
+.eth-value svg{
+    position: relative;
+    top: 3px;
+}
+.eth-time{
+    color: hsl(215, 51%, 70%);
+    margin-left: 80px;
+    font-size: 15px;
+}
+.eth-time svg{
+    position: relative;
+    top: 3px;
+}
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-top: 20px;
+}
+
+
+/* footer section */
+b{
+    color:  hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+
+b:hover{
+    color: hsl(178, 100%, 50%);
+}
+span img{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+    margin-right: 15px;
+    border: 1px solid white;
+}
+
+.create{
+    color: hsl(215, 51%, 70%);
+}
